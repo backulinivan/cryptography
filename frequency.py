@@ -8,7 +8,7 @@ class Monoalphabet:
         uppercase_code = {self.alphabet[i].upper():keytable[i].upper() for i in range(len(self.alphabet))}
         self._encode = dict(lowercase_code)
         self._encode.update(uppercase_code)
-        self._decode = {}  
+        self._decode = {}
 
     def encode(self, line):
         if len(line) == 1:

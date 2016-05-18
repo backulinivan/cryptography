@@ -25,7 +25,7 @@ class Caesar:
 
 
 #key = int(input('Ээъыцмъ фубз:'))
-cipher = Caesar(16)
+cipher = Caesar(14)
 line = input()
 while line != ' ':
     print(cipher.decode(line))
