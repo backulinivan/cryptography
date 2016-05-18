@@ -1,7 +1,7 @@
 import random
 
 class Monoalphabet:
-    alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"  # FIXME
+    alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя" 
 
     def __init__(self, keytable):
         lowercase_code = {self.alphabet[i]:keytable[i] for i in range(len(self.alphabet))}
